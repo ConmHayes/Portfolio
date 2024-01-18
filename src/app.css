@@ -1,4 +1,29 @@
 body {
     background-color: rgb(227, 227, 227);
     font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 24px;
+}
+
+a {
+    font-size: 24px;
 }
