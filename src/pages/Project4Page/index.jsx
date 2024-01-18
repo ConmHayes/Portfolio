@@ -9,7 +9,7 @@ function Project4() {
 
         <hr></hr>
         <h1>NerdWork</h1>
-        <img src="/public/Project_4.jpg" alt="Project4" />
+        <img src="/Project_4.jpg" alt="Project4" />
         
         <hr></hr>
         <h2>Tech Stack</h2>

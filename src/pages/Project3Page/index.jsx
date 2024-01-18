@@ -9,7 +9,7 @@ function Project3() {
 
         <hr></hr>
         <h1>StudyAsync</h1>
-        <img src="/public/Project_3.jpg" alt="Project3" />
+        <img src="/Project_3.jpg" alt="Project3" />
         
         <hr></hr>
         <h2>Tech Stack</h2>

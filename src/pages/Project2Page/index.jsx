@@ -9,7 +9,7 @@ function Project2() {
 
         <hr></hr>
         <h1>Florin & Burkes Library Service</h1>
-        <img src="/public/Project_2.jpg" alt="Project2" />
+        <img src="/Project_2.jpg" alt="Project2" />
         
         <hr></hr>
         <h2>Tech Stack</h2>
