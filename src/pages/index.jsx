@@ -1,0 +1,8 @@
+export { default as About } from "./AboutPage"
+export { default as Education } from "./EducationPage"
+export { default as Projects } from "./ProjectsPage"
+export { default as Skills } from "./SkillsPage"
+export { default as Project1 } from "./Project1Page"
+export { default as Project2 } from "./Project2Page"
+export { default as Project3 } from "./Project3Page"
+export { default as Project4 } from "./Project4Page"
