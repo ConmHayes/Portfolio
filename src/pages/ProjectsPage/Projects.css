@@ -1,25 +1,24 @@
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .projectCards {
     display: flex;
-    flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
-    justify-content: space-around; /* Adjust as needed */
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .projectCard {
     width: 45%;
-    margin: 10px;
-    text-align: center; /* Center content horizontally within each card */
+    padding: 0;
+    margin: 0px;
+    text-align: center;
 }
-
 
 img {
     max-width: 80%;
     height: auto;
 
+}
+
+.pad {
+    margin: 50px;
 }

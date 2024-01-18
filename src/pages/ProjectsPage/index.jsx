@@ -7,16 +7,18 @@ function Projects() {
 
     return (
         <>
-        <h1>Projects</h1>
+        <h1 className='pageTitle'>Projects</h1>
         <div className = 'projectCards'>
         {descriptions.map((project,i) => (
-                <div className = 'projectCard' key={i}>
+                <article className = 'projectCard' key={i}>
                     <h3>{project.name}</h3>
                     <img src={project.img} alt={project.name} />
                     <p>{project.description}</p>
                     <button onClick={() => navigate(`/project${i+1}`)}>Learn More</button>
-                </div> )
+                </article> )
         )}
+        </div>
+        <div className='pad'>
         </div>
         </>
     )

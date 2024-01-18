@@ -2,7 +2,7 @@ function Educations() {
 
     return (
         <>
-        <h1>Educations</h1>
+        <h1 className='pageTitle'>Educations</h1>
 
         <h4>2020-2023</h4>
         <h2>University Of Hertfordshire</h2>

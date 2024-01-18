@@ -5,22 +5,51 @@ body {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 48px;
 }
 
+.pageTitle {
+    background-color: rgb(58, 99, 211);
+    /* border: solid rgba(0, 0, 0, 0.2); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 50%; 
+    margin: 0 auto; 
+    margin-top: -30px;
+    padding: 20px; 
+}
+
+
 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 40px;
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
 }
 
 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 28px;
 }
 
 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
 }
 

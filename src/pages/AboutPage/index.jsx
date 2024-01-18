@@ -4,7 +4,7 @@ function About() {
 
     return (
         <>
-        <h1>About Me</h1>
+        <h1 className='pageTitle'>About Me</h1>
         <img src='Photo.jpg'>
         </img>
         <p>

@@ -3,7 +3,7 @@ function Skills() {
 
     return (
         <>
-        <h1>Skills</h1>
+        <h1 className='pageTitle'>Skills</h1>
         <h2>Languages</h2>
         <div className='languagesSkills'>
         <img src="/python.png" alt="Python" />
