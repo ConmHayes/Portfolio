@@ -9,6 +9,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    min-width: 600px;
+    z-index: 3;
 }
 
 nav h1 {
@@ -16,7 +18,7 @@ nav h1 {
     margin-bottom: -35px;
     padding: 25px 35px 35px;
     border-radius: 30px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav-links {
@@ -30,6 +32,10 @@ nav h1 {
     padding-bottom: 30px;
     margin: 0px;
     border-radius: 10px;
+    z-index: 2;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-shrink: 0; /* Prevent items from shrinking when space is limited */
+    
 }
 
 .nav-list {
@@ -37,7 +43,7 @@ nav h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 60%;
 }
 
 .nav-link {

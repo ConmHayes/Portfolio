@@ -9,6 +9,7 @@ function Skills() {
         <img src="/python.png" alt="Python" />
         <img src="/Flask.png" alt="Flask" />
         <img src="/html-5.png" alt="HTML" />
+        <img src="/css-3.png" alt="CSS" />
         <img src="/js.png" alt="JavaScript" />
         <img src="/bootstrap.png" alt="Bootstrap" />
         <img src="/react.png" alt="React" />

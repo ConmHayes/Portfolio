@@ -15,14 +15,13 @@ h1 {
 
 .pageTitle {
     background-color: cornflowerblue;
-    /* border: solid rgba(0, 0, 0, 0.2); */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     width: 50%; 
     margin: 0 auto; 
-    margin-top: -30px;
+    margin-top: -28px;
     padding: 20px; 
 }
 
@@ -58,6 +57,10 @@ p {
     font-size: 24px;
 }
 
+li {
+    font-size: 24px;
+}
+
 a {
     font-size: 24px;
 }
@@ -72,4 +75,3 @@ button {
     border-radius: 30px;
     background-color: transparent;
 }
-

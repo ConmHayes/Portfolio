@@ -1,4 +1,4 @@
-import {Navbar} from './components'
+import {Navbar, Footer} from './components'
 import {Projects, About, Education, Skills, Project1, Project2, Project3, Project4} from './pages'
 import './app.css';
 import { Routes, Route } from 'react-router-dom'
@@ -20,6 +20,7 @@ function App() {
           <Route path='*' element={<h1>Page not Found</h1>} />
         </Route>
       </Routes>
+      <Footer/>
     </div>
   )
 }

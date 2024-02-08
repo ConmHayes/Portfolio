@@ -7,23 +7,21 @@ function Project1() {
     return (
         <div className='p1'>
         <div className='backTitle'>    
-        <button onClick={() => navigate(`/`)}>Back</button>
-        <h1 className='projectTitle'>Educational Gaming</h1>
+        <div className='backButtonDiv'><button onClick={() => navigate(`/`)}>Back</button></div>
+        <div className='projectTitleDiv'><h1 className='pageTitle'>Educational Gaming</h1></div>
         </div>
         <img src="/Project_1.jpg" alt="Project1" />
 
-        <hr></hr>
         <h2>Tech Stack</h2>
         <ul className='techStackList'>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>BootStrap</li>
-            <li>NodeJs</li>
-            <li>npm</li>
+            <li><img src="/html-5.png" alt="HTML" /></li>
+            <li><img src="/js.png" alt="JavaScript" /></li>
+            <li><img src="/css-3.png" alt="CSS" /></li>
+            <li><img src="/bootstrap.png" alt="Bootstrap" /></li>
+            <li><img src="/Node.js_logo.png" alt="Nodejs" /></li>
+            <li><img src="/Npm-logo.png" alt="npm" /></li>
         </ul>
 
-        <hr></hr>
         <h2>About</h2>
         <p>While at La Fosse Academy we had to complete projects. This was my first project and it was to make something that would help make education more engaging.</p>
         <p>So what my team decided to do was create a multiple choice quiz across non-STEM subjects</p>
