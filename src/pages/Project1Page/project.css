@@ -1,0 +1,85 @@
+.p1 {
+    background-color: rgb(227, 227, 227);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.projectTitle {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.p1 button {
+    margin-left: 10px;
+}
+
+
+
+/* .p1 button {
+    margin-left: 10px;
+} */
+
+.projectCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+    border-top: 2px solid rgba(49, 49, 49, 0.3);
+    height: 700px;
+}
+
+.projectCard:nth-child(even) {
+    border-left: 1px solid rgba(49, 49, 49, 0.3);
+}
+
+.projectCard:nth-child(odd) {
+    border-right: 1px solid rgba(49, 49, 49, 0.3);
+}
+
+.projectCard:nth-last-child(-n+2) {
+    border-bottom: 2px solid rgba(49, 49, 49, 0.3);
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+/* .p1 button{
+    
+} */
+
+.pad {
+    margin: 50px;
+}

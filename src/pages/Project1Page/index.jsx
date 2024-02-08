@@ -1,14 +1,15 @@
 import { useNavigate } from 'react-router-dom'
+import './project.css'
 
 function Project1() {
     const navigate = useNavigate()
 
     return (
-        <>
+        <div className='p1'>
+        <div className='backTitle'>    
         <button onClick={() => navigate(`/`)}>Back</button>
-
-        <hr></hr>
-        <h1>Educational Gaming</h1>
+        <h1 className='projectTitle'>Educational Gaming</h1>
+        </div>
         <img src="/Project_1.jpg" alt="Project1" />
 
         <hr></hr>
@@ -35,7 +36,7 @@ function Project1() {
             <li>Learned what it was like to work in a team on developers</li>
             <li>Learnt how to communicate bugs and issues effectively</li>
         </ul>
-        </>
+        </div>
     )
 }
 

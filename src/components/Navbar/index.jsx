@@ -11,10 +11,10 @@ function Navbar() {
         <h1>Connor Hayes</h1>
         <ul className="nav-links">
           <div className='nav-list'>
-            <NavLink to='/' style={({ isActive }) => (isActive ? activeStyle : undefined)}>Projects</NavLink>
-            <NavLink to='/About' style={({ isActive }) => (isActive ? activeStyle : undefined)}>About Me</NavLink>
-            <NavLink to='/Education' style={({ isActive }) => (isActive ? activeStyle : undefined)}>Education</NavLink>
-            <NavLink to='/Skills' style={({ isActive }) => (isActive ? activeStyle : undefined)}>Skills</NavLink>
+            <NavLink className="nav-link" to='/' style={({ isActive }) => (isActive ? activeStyle : undefined)}>Projects</NavLink>
+            <NavLink className="nav-link" to='/About' style={({ isActive }) => (isActive ? activeStyle : undefined)}>About Me</NavLink>
+            <NavLink className="nav-link" to='/Education' style={({ isActive }) => (isActive ? activeStyle : undefined)}>Education</NavLink>
+            <NavLink className="nav-link" to='/Skills' style={({ isActive }) => (isActive ? activeStyle : undefined)}>Skills</NavLink>
           </div>
         </ul>
       </nav>

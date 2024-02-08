@@ -1,18 +1,20 @@
 body {
-    background-color: rgb(227, 227, 227);
+    background: linear-gradient(rgb(25, 25, 112), rgb(255, 255, 255));
     font-family: 'Jost', sans-serif;
     margin: 0;
 }
+
 
 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 48px;
+    color: midnightblue;
 }
 
 .pageTitle {
-    background-color: rgb(58, 99, 211);
+    background-color: cornflowerblue;
     /* border: solid rgba(0, 0, 0, 0.2); */
     display: flex;
     justify-content: center;
@@ -30,6 +32,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    color: midnightblue;
 }
 
 h3 {
@@ -37,6 +40,7 @@ h3 {
     justify-content: center;
     align-items: center;
     font-size: 36px;
+    color: midnightblue;
 }
 
 h4 {
@@ -44,6 +48,7 @@ h4 {
     justify-content: center;
     align-items: center;
     font-size: 28px;
+    color: midnightblue;
 }
 
 p {
@@ -56,3 +61,15 @@ p {
 a {
     font-size: 24px;
 }
+
+button {
+    font-size: 24px;
+    color: cornflowerblue;
+    width: 200px;
+    height: 48px;
+    border-style: none;
+    border: 5px solid cornflowerblue;
+    border-radius: 30px;
+    background-color: transparent;
+}
+

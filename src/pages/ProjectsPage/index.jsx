@@ -6,10 +6,10 @@ function Projects() {
     const navigate = useNavigate()
 
     return (
-        <>
+        <div className='projects'>
         <h1 className='pageTitle'>Projects</h1>
         <div className = 'projectCards'>
-        {descriptions.map((project,i) => (
+        {descriptions.map((project, i) => (
                 <article className = 'projectCard' key={i}>
                     <h3>{project.name}</h3>
                     <img src={project.img} alt={project.name} />
@@ -20,7 +20,8 @@ function Projects() {
         </div>
         <div className='pad'>
         </div>
-        </>
+
+        </div>
     )
 }
 
