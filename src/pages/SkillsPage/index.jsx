@@ -2,7 +2,7 @@ import './skills.css'
 function Skills() {
 
     return (
-        <>
+        <div className='page'>
         <h1 className='pageTitle'>Skills</h1>
         <h2>Languages</h2>
         <div className='languagesSkills'>
@@ -32,7 +32,7 @@ function Skills() {
             <li>Teamwork</li>
             <li>Critical Thinking</li>
         </ul>
-        </>
+        </div>
         
     )
 }

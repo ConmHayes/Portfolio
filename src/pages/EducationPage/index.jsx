@@ -1,7 +1,7 @@
 function Educations() {
 
     return (
-        <>
+        <div className="page">
         <h1 className='pageTitle'>Educations</h1>
 
         <h4>2020-2023</h4>
@@ -17,7 +17,7 @@ function Educations() {
         <h2>Tendering Technology College Secondary School</h2>
         <p>11 GCSEs</p>
         <p>A*-C & 7-5</p>
-        </>
+        </div>
     )
 }
 

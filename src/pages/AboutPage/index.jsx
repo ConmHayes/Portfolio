@@ -1,9 +1,8 @@
 import './About.css'
 function About() {
 
-
     return (
-        <div className='about'>
+        <div className='page'>
         <h1 className='pageTitle'>About Me</h1>
         <img src='Photo.jpg'>
         </img>
