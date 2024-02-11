@@ -4,6 +4,10 @@ import './project.css'
 function Project1() {
     const navigate = useNavigate()
 
+    const sourceCode = () => {
+        window.location.href = 'https://github.com/ConmHayes/Lap-1-Project'
+    }
+
     return (
         <div className='p1'>
         <div className='backTitle'>    
@@ -34,6 +38,7 @@ function Project1() {
             <li>Learned what it was like to work in a team on developers</li>
             <li>Learnt how to communicate bugs and issues effectively</li>
         </ul>
+        <div className='SourceButtonDiv'><button onClick={sourceCode}>Source Code</button></div>
         </div>
     )
 }

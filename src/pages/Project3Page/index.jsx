@@ -4,6 +4,10 @@ import './project.css'
 function Project3() {
     const navigate = useNavigate()
 
+    const sourceCode = () => {
+        window.location.href = 'https://github.com/ConmHayes/Revision-App'
+    }
+
     return (
         <div className='p3'>
         <div className='backTitle'>    
@@ -36,6 +40,7 @@ function Project3() {
             <li>building a react project</li>
             <li>Using MVC Structure</li>
         </ul>
+        <div className='SourceButtonDiv'><button onClick={sourceCode}>Source Code</button></div>
         </div>
     )
 }

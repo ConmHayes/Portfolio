@@ -41,6 +41,11 @@
 .backButtonDiv button {
     margin-left: 15px;
 }
+
+.SourceButtonDiv button {
+    margin: 15px;
+}
+
 .p2 h2 {
     padding-top: 5px;
     width: 90%;

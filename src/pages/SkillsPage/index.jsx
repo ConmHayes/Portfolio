@@ -22,8 +22,8 @@ function Skills() {
         <img src="/Npm-logo.png" alt="npm" />
         <img src="/Node.js_logo.png" alt="Nodejs" />
         </div>
-        <hr />
         <h2>Key Skills</h2>
+        <div className='key'>
         <ul>
             <li>Communication</li>
             <li>Presentation</li>
@@ -32,6 +32,7 @@ function Skills() {
             <li>Teamwork</li>
             <li>Critical Thinking</li>
         </ul>
+        </div>
         </div>
         
     )

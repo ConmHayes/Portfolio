@@ -4,6 +4,10 @@ import './project.css'
 function Project4() {
     const navigate = useNavigate()
 
+    const sourceCode = () => {
+        window.location.href = 'https://github.com/ConmHayes/Nerdwork'
+    }
+
     return (
         <div className='p4'>
         <div className='backTitle'>    
@@ -39,6 +43,7 @@ function Project4() {
             <li>building a react project</li>
             <li>Using MVC Structure</li>
         </ul>
+        <div className='SourceButtonDiv'><button onClick={sourceCode}>Source Code</button></div>
         </div>
     )
 }

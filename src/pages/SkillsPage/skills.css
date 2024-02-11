@@ -12,3 +12,25 @@
     height: auto;
     margin: 15px;
 }
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    flex-wrap: wrap;
+
+}
+
+.key li {
+    font-size: 30px;
+    margin: 10px 20px; 
+}
+
+

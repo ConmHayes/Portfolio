@@ -4,6 +4,10 @@ import './project.css'
 function Project2() {
     const navigate = useNavigate()
 
+    const sourceCode = () => {
+        window.location.href = 'https://github.com/ConmHayes/Library-Services-App'
+    }
+
     return (
         <div className='p2'>
         <div className='backTitle'>    
@@ -36,6 +40,7 @@ function Project2() {
             <li>Using pair programming more effectively especially to debug</li>
             <li>Using MVC Structure</li>
         </ul>
+        <div className='SourceButtonDiv'><button onClick={sourceCode}>Source Code</button></div>
         </div>
     )
 }
