@@ -5,9 +5,9 @@ function Project2() {
     const navigate = useNavigate()
 
     const sourceCode = () => {
-        window.location.href = 'https://github.com/ConmHayes/Library-Services-App'
+        window.open('https://github.com/ConmHayes/Library-Services-App', '_blank')
     }
-
+    
     return (
         <div className='p2'>
         <div className='backTitle'>    

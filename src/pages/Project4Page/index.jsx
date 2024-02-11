@@ -5,9 +5,9 @@ function Project4() {
     const navigate = useNavigate()
 
     const sourceCode = () => {
-        window.location.href = 'https://github.com/ConmHayes/Nerdwork'
+        window.open('https://github.com/ConmHayes/Nerdwork', '_blank')
     }
-
+    
     return (
         <div className='p4'>
         <div className='backTitle'>    

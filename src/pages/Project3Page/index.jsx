@@ -5,9 +5,9 @@ function Project3() {
     const navigate = useNavigate()
 
     const sourceCode = () => {
-        window.location.href = 'https://github.com/ConmHayes/Revision-App'
+        window.open('https://github.com/ConmHayes/Revision-App', '_blank')
     }
-
+    
     return (
         <div className='p3'>
         <div className='backTitle'>    

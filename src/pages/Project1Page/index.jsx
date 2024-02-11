@@ -1,11 +1,11 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 import './project.css'
 
 function Project1() {
     const navigate = useNavigate()
 
     const sourceCode = () => {
-        window.location.href = 'https://github.com/ConmHayes/Lap-1-Project'
+        window.open('https://github.com/ConmHayes/Lap-1-Project', '_blank')
     }
 
     return (
