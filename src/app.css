@@ -11,6 +11,8 @@ body {
     background-color: rgb(227, 227, 227);
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
 
 
@@ -83,4 +85,8 @@ button {
     border: 5px solid cornflowerblue;
     border-radius: 30px;
     background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
 }

@@ -1,8 +1,29 @@
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: midnightblue;
     color: cornflowerblue;
     width: 100%;
+    padding: 0;
+}
+
+.footer p {
+    margin: 10px;
 }
 .footer img{
-    width: 150px
+    width: 100px;
+    padding-bottom: 10px;
+    margin: 0px 10px 10px;
+}
+
+.footer img:hover{
+    cursor: pointer;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
