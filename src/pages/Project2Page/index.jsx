@@ -30,12 +30,12 @@ function Project2() {
         </ul>
 
         <h2>About</h2>
-        <p>While at La Fosse Academy we had to complete projects. This was my second project and it was to solve a problem for The Florin & Burkes County Council.</p>
-        <p>So we decided to build an app to help people reserve books without the requirement of staff intervention.</p>
+        <p>This was my Second Project at La Fosse. The brief was to solve a problem for the local council. So, my team decided we would build a library service App where staff would be able to add books to the site and users would be able to browse their collection and rent books out as they wished. As we believed this would help alleviate pressure of the library from having to do everything person to person.</p>
 
         <h2>Skills used and learnt</h2>
-        <p>My role in this project was on the frontend and on the styling of the site.</p>
+        <p>For this project I was working on the frontend.</p>
         <ul>
+            <li>A deeper understanding of styling and CSS</li>
             <li>How to build, manage and integrate a database in the project</li>
             <li>Using pair programming more effectively especially to debug</li>
             <li>Using MVC Structure</li>

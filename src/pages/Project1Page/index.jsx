@@ -28,7 +28,7 @@ function Project1() {
 
         <h2>About</h2>
         <p>
-        While at La Fosse Academy we had to complete projects. This was my first group project. The brief was to create am app that would help make education more engaging. So, my team decided to create a multiple-choice quiz site that covered art history and geography. Which each category having a timed quiz and a quiz where you answer as many question as possible.        </p>
+        While at La Fosse Academy we had to complete projects, We were given vague briefs to a problem in which we had to solve. This was my first group project. The brief was to create am app that would help make education more engaging. So, my team decided to create a multiple-choice quiz site that covered art history and geography. Which each category having a timed quiz and a quiz where you answer as many question as possible.        </p>
 
         <hr />
         <h2>Skills used and learnt</h2>
