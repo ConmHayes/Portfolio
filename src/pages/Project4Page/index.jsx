@@ -33,15 +33,14 @@ function Project4() {
         </ul>
 
         <h2>About</h2>
-        <p>While at La Fosse Academy we had to complete projects. For my final project all we had to do was build a site using technologies that we had learnt throughout the course.</p>
-        <p>After thinking of and pitching multiple ideas we settled on a book/games sharing site with a community forum.</p>
+        <p>For my fourth and final project at La Fosse the brief was to pitch and build an app over two weeks with everything we had learned over the course. We built a react app, with a flask backend. So, we decided to build a book/games sharing site with a community forum.</p>
 
         <h2>Skills used and learnt</h2>
-        <p>Once again I had the role of project manager for Final project at La Fosse. I had an overview of the project so was able to spend time on both the front and backend.</p>
+        <p>Once again I had the role of project manager for Final project at La Fosse. I had an overview of the project so was able to spend time on being full stack.</p>
         <ul>
-            <li>How to manage a team in an agile manner</li>
-            <li>building a react project</li>
-            <li>Using MVC Structure</li>
+            <li>How to pitch ideas and have them rejected.</li>
+            <li>How to successfully move on from setbacks</li>
+            <li>building a flask backend</li>
         </ul>
         <div className='SourceButtonDiv'><button onClick={sourceCode}>Source Code</button></div>
         </div>
