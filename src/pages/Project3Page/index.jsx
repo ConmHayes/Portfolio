@@ -30,11 +30,10 @@ function Project3() {
         </ul>
 
         <h2>About</h2>
-        <p>While at La Fosse Academy we had to complete projects. This was my Third project and we had to create something to help students study using react.</p>
-        <p>So my team went to build a timetabling and notes app.</p>
+        <p>For my third project at La Fosse, we were given a brief, because of the pandemic we needed to build an app to assist online learning. So, my team decided to build a time tabling app to assist with time organisation. </p>
 
         <h2>Skills used and learnt</h2>
-        <p>I had the role of project manager for my third project at La Fosse. I had a focus on the backend but I also helped debug and build up the frontend.</p>
+        <p>For this project I had the role of project manager and working on full stack development. This was my first experience of leading a team of developers.</p>
         <ul>
             <li>How to manage a team in an agile manner</li>
             <li>building a react project</li>
