@@ -27,13 +27,16 @@ function Project1() {
         </ul>
 
         <h2>About</h2>
-        <p>While at La Fosse Academy we had to complete projects. This was my first project and it was to make something that would help make education more engaging.</p>
-        <p>So what my team decided to do was create a multiple choice quiz across non-STEM subjects</p>
+        <p>
+        While at La Fosse Academy we had to complete projects. This was my first group project. The brief was to create am app that would help make education more engaging. So, my team decided to create a multiple-choice quiz site that covered art history and geography. Which each category having a timed quiz and a quiz where you answer as many question as possible.        </p>
 
         <hr />
         <h2>Skills used and learnt</h2>
-        <p>For this project no one had a specified role as it allowed all of us to tackle the frontend and backend to gain experience.</p>
+        <p>
+        This was my first project building an app and my first at La Fosse. During this project our group decided to no assign anyone with specific roles as it allowed everyone to practice what we had learnt in the first week of the academy. 
+        </p>
         <ul>
+            <li>Building an pp using JS, HTML and CSS</li>
             <li>Connecting a frontend and backend</li>
             <li>Learned what it was like to work in a team on developers</li>
             <li>Learnt how to communicate bugs and issues effectively</li>

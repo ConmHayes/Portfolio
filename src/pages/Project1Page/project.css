@@ -51,16 +51,7 @@
     width: 90%;
     border-top: 2px solid rgba(49, 49, 49, 0.3); 
 }
-.p1 ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
 .p1 ul img {
     max-width: 150px;
     height: auto;
